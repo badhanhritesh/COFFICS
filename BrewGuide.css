@@ -1,0 +1,67 @@
+/*NAVBAR SECTION*/
+img{
+    height: 76px;                                                               /* THIS IS THE COFFEE IMAGE LOGO IN THE NAVBAR*/
+}
+
+nav{
+    color: #6F5A4B;
+    /* border: 2px solid black;                        THE COLOR OF THE TEXT INSIDE THE NAVBAR */
+}
+
+.dropdown-item{
+    color: #6F5A4B;
+}
+
+#txt{
+    color: #6F5A4B;
+}
+/*NAVBAR SECTION*/
+
+/* PARA SECTION FOR BREW GUIDE */
+
+.para{
+    /* border: 2px solid salmon; */
+    text-align: center;
+    color: #6F5A4B;
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: large;
+    padding: 5rem;
+    width: 100%;
+}
+
+/* PARA SECTION FOR BREW GUIDE */
+
+/*IMAGES SECTION*/
+.img{
+    height: 40rem;                  
+}
+
+.img-container{
+    /* border: 2px solid forestgreen; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+    
+    
+    /* gap: 40px; */                                                    /* THIS IS TO GIVE GAP BETWEEN THE IMAGES*/
+    
+}   
+/*IMAGES SECTION*/
+
+/*FOOTER SECTION*/
+
+footer {
+    background-color: #6F5A4B;
+    color: #E9E9EA;                                         /* This is the footer section */
+    text-align: center;
+    padding: 25px;
+    border: 2px solid #E9E9EA;
+    height: 5rem;
+
+}
+/*FOOTER SECTION*/

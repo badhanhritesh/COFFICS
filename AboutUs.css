@@ -1,0 +1,82 @@
+/*NAVBAR SECTION*/
+img{
+    height: 76px;                                                               /* THIS IS THE COFFEE IMAGE LOGO IN THE NAVBAR*/
+}
+
+nav{
+    color: #6F5A4B;
+    width: 100%;
+    /* border: 2px solid black;                        THE COLOR OF THE TEXT INSIDE THE NAVBAR */
+}
+
+.dropdown-item{
+    color: #6F5A4B;
+}
+
+#txt{
+    color: #6F5A4B;
+}
+/*NAVBAR SECTION*/
+
+
+/* ABOUT US TEXT*/
+.text{
+    text-align: center;
+    text-shadow: #6F5A4B;
+    font-family: cursive;
+    font-size: 10rem;
+    color: #6F5A4B;
+    font-weight: 700;
+    text-shadow: burlywood;
+    width: 100%;
+
+}
+/* ABOUT US TEXT*/
+
+/* IMAGE DISPLAYED BESIDE THE PARA*/
+.txt{
+    /* border: 2px solid darkcyan ; */
+    display: flex;
+    width: 100%;
+}
+
+.txt img{
+    height: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+
+}
+
+/* IMAGE DISPLAYED BESIDE THE PARA*/
+
+/* PARAGRAPH SECTION*/
+u{
+    font-size: xx-large;            /* THE U TAG INSIDE THE P TAG*/
+}
+
+#para{
+    text-align: center;             
+    padding-top: 15rem;
+    font-size: large;
+    color: #6F5A4B;
+    font-weight: bold;
+    font-style: italic;
+}
+/* PARAGRAPH SECTION*/
+
+/* FOOTER SECTION*/
+footer {
+    margin-top: 15rem;
+    background-color: #6F5A4B;
+    color: #E9E9EA;                                         
+    text-align: center;
+    padding: 25px;
+    border: 2px solid #E9E9EA;
+    height: 5rem;
+    
+
+}
+/* FOOTER SECTION*/
