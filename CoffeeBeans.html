@@ -12,6 +12,13 @@
       link.rel = "stylesheet";
       link.href = "CoffeeBeans_style.css";  // Path to your CSS file
       document.head.appendChild(link);
+
+//       const img = document.getElementById('myImage');
+// img.addEventListener('click', function() {
+//   img.classList.add('animate-bounce');
+//   setTimeout(() => img.classList.remove('animate-bounce'), 500); // Remove after animation
+// });
+
       </script>
 </head>
 <body>
@@ -70,9 +77,10 @@
 <!-- FIRST LINE COFFEE IMAGES SECTION-->
 <div class="img-container">
     <div class="imagebox">
-        <img src="Images/Ratnagiri-Estate-750x750.webp" alt="" srcset="" class="img"> 
+      <a href="Rat_Big.html">
+        <img src="Images/Ratnagiri-Estate-750x750.webp" alt="" id="myImage" srcset="" class="img"> <!--FIRST IMAGE-->
         <p> Ratnagiri Estate <br> Rs 640/- | Rs 2400/- </p>
-      </div>
+      </div></a>
       <div class="imagebox">
         <img src="Images/sold-out-mooley-manai-750x750.webp" alt="" srcset="" class="img"> 
         <p> Mooley Manay Estate <br> Rs 650/- | Rs 2400/- </p>
